@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Insert UUID",
+        "command": "uuid-inserter:insert"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "UUID Inserter",
+          "submenu": [
+            {
+              "label": "Insert UUID",
+              "command": "uuid-inserter:insert"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
